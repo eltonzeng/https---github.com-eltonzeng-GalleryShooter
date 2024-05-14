@@ -12,7 +12,7 @@ let config = {
     },
     width: 800,
     height: 600,
-    scene: [GalleryShooter]
+    scene: [GalleryShooter, Endgame]
 }
 
 const game = new Phaser.Game(config);
